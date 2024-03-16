@@ -201,11 +201,11 @@ hr {
 		}
 		
 		.nutricao-detalhes {
-			dl {display: flex;}
 			font-family: var(--font-outfit);
 			padding: 13.5px 0;
 			border-bottom: 1px solid var(--light-grey);
 			
+			dl {display: flex}
 			.nutricao-detalhes__titulo, .nutricao-detalhes__descricao {
 				flex-basis: 50%;
 			}
