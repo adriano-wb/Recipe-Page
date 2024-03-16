@@ -85,7 +85,7 @@ hr {
 }
 
 .tempo-de-preparo__titulo {
-	color: #751043;
+	color: var(--dark-raspberry);
 	font: 600 1.25rem var(--font-outfit);
 }
 
@@ -108,7 +108,7 @@ hr {
 }
 
 .tempo-etapas__passos::before {
-	color: #751043;
+	color: var(--dark-raspberry);
 	content: "\25AA";
 	position: absolute;
 	left: -33px;
@@ -242,52 +242,3 @@ dl {display:flex}
 	color: #751043; 
 	text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
