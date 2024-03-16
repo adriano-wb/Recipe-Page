@@ -62,172 +62,172 @@ hr {
 /* Artigo da receita */
 .receita {
 	padding: 30px 32px;
-	
-	.receita__titulo {
-		color: var(--dark-charcoal);
-		font-size: 2.24rem;
-		font-weight: lighter;
-		line-height: 1;
-		margin-top: 8px;
-	}
-	
-	.receita__texto {
-		margin-top: 22px;
-		line-height: 1.5;
-	}
-	
-	/* Selção do tempo de preparo */
-	.tempo-de-preparo {
-		background-color: var(--rose-white);
-		margin-top: 30px;
-		border-radius: 12px;
-		padding: 23px;
-		
-		.tempo-de-preparo__titulo {
-			color: #751043;
-			font: 600 1.25rem var(--font-outfit);
-		}
-		
-		.tempo-etapas {
-			color: var(--wenge-brown);
-			list-style-type: none;
-			border-radius: 7px;
-			font: 1rem var(--font-outfit);
-			margin-top: 14px;
-			line-height: 1.5;
-			margin-left: 41px;
-			
-			.tempo-etapas__passos {			
-				position: relative;
-			}
-		
-			.tempo-etapas__passos:not(:last-child) {
-				margin-bottom: 8px;
-			}
-		
-			.tempo-etapas__passos::before {
-				color: #751043;
-				content: "\25AA";
-				position: absolute;
-				left: -33px;
-				bottom: 50%;
-				margin-bottom: -11px;
-			}
-		}
-	}
-	/* Fim da seção do tempo de preparo */
-
-	/* Artigo sobre os ingredientes */
-	.ingredientes {
-		margin-top: 29px;
-		
-		.ingredientes-etapas {
-			margin-top: 17px;
-			margin-left: 40px;
-			font: 1rem var(--font-outfit);
-			list-style-type: none;
-			
-			.ingredientes-etapas__passos::before {
-				color: #751043;
-				content: "\25AA";
-				position: absolute;
-				left: -33px;
-				bottom: 50%;
-				margin-bottom: -11px;
-			}
-			
-			.ingredientes-etapas__passos {	
-				color: var(--wenge-brown);
-				position: relative;
-				line-height: 1.50;
-			}
-			
-			.ingredientes-etapas__passos:not(:last-child) {
-				margin-bottom: 8px;
-			}
-		}
-	}
-	/* Fim do artigo ingredientes */
-
-	/* Artigo intruções da receita */
-	.instrucoes {
-		margin-top: -5px;
-		
-		.instrucoes-etapas {
-			margin-top: 19px;
-			font: 1rem var(--font-outfit);
-			counter-reset: item; /* Inicializa o contador "item" */
-			
-			.instrucoes-etapas__passos {
-				color: var(--wenge-brown);
-				margin-left: 40px;		
-				line-height: 1.50;
-				position: relative;
-				list-style-type: none;
-			}
-			
-			.instrucoes-etapas__passos::before {
-				content: counter(item) ". "; /* Adiciona o número e um ponto após o número */
-				counter-increment: item; /* Incrementa o contador */
-				color: #751043;
-				position: absolute;
-				left: -32px;
-				top: 1px;
-
-				font: bold 1rem var(--font-outfit);
-				
-			}
-			
-			.instrucoes-etapas__passos:not(:last-child) {
-				margin-bottom: 8px;
-			}
-		}
-	}
-	/* Fim do artigo instruções */
-
-	/* Artigo sobre o valor nutricional */
-	.info-nutricional {
-		margin-top: -5px;
-		
-		.info-nutricional__texto {
-			color: var(--wenge-brown);
-			margin-top: 19px;
-			line-height: 1.5;
-		}
-		
-		ul.descricao {
-			margin-top: 12px;
-			list-style: none;
-		}
-		
-		.nutricao-detalhes {
-			font-family: var(--font-outfit);
-			padding: 13.5px 0;
-			border-bottom: 1px solid var(--light-grey);
-			
-			dl {display: flex}
-			.nutricao-detalhes__titulo, .nutricao-detalhes__descricao {
-				flex-basis: 50%;
-			}
-			
-			.nutricao-detalhes__titulo {
-				color: var(--wenge-brown);
-				margin-left: 32px;
-			}
-			
-			.nutricao-detalhes__descricao {
-				color: var(--nutmeg);
-				margin-left: -15px;
-			}
-		}
-		
-		.nutricao-detalhes:last-child {
-			border: none;
-		}
-	}
-	/* Fim do artigo sobre o valor nutricional */
 }
+
+.receita__titulo {
+	color: var(--dark-charcoal);
+	font-size: 2.24rem;
+	font-weight: lighter;
+	line-height: 1;
+	margin-top: 8px;
+}
+
+.receita__texto {
+	line-height: 1.5;
+	margin-top: 22px;
+}
+
+.tempo-de-preparo {
+	background-color: var(--rose-white);
+	margin-top: 30px;
+	border-radius: 12px;
+	padding: 23px;
+}
+
+.tempo-de-preparo__titulo {
+	color: #751043;
+	font: 600 1.25rem var(--font-outfit);
+}
+
+.tempo-etapas {
+	color: var(--wenge-brown);
+	list-style-type: none;
+	border-radius: 7px;
+	font: 1rem var(--font-outfit);
+	margin-top: 14px;
+	line-height: 1.5;
+	margin-left: 41px;
+}
+
+.tempo-etapas__passos {			
+	position: relative;
+}
+
+.tempo-etapas__passos:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.tempo-etapas__passos::before {
+	color: #751043;
+	content: "\25AA";
+	position: absolute;
+	left: -33px;
+	bottom: 50%;
+	margin-bottom: -11px;
+}
+/* Fim da seção do tempo de preparo */
+
+.ingredientes {
+	margin-top: 29px;
+}
+
+.ingredientes-etapas {
+	margin-top: 17px;
+	margin-left: 40px;
+	font: 1rem var(--font-outfit);
+	list-style-type: none;
+}
+
+/* Criar "square" da lista personalizado */
+.ingredientes-etapas__passos::before {
+	color: #751043;
+	content: "\25AA";
+	position: absolute;
+	left: -33px;
+	bottom: 50%;
+	margin-bottom: -11px;
+}
+
+.ingredientes-etapas__passos {	
+	color: var(--wenge-brown);
+	position: relative;
+	line-height: 1.50;
+}
+
+.ingredientes-etapas__passos:not(:last-child) {
+	margin-bottom: 8px;
+}
+/* Fim do artigo ingredientes */
+
+.instrucoes {
+	margin-top: -5px;
+}
+
+.instrucoes-etapas {
+	margin-top: 19px;
+	font: 1rem var(--font-outfit);
+	counter-reset: item; /* Inicializa o contador "item" */
+}
+
+.instrucoes-etapas__passos {
+	color: var(--wenge-brown);
+	margin-left: 40px;		
+	line-height: 1.50;
+	position: relative;
+	list-style-type: none;
+}
+
+.instrucoes-etapas__passos::before {
+	content: counter(item) ". "; /* Adiciona o número e um ponto após o número */
+	counter-increment: item; /* Incrementa o contador */
+	color: #751043;
+	font: bold 1rem var(--font-outfit);
+	position: absolute;
+	left: -32px;
+	top: 1px;
+}
+
+.instrucoes-etapas__passos:not(:last-child) {
+	margin-bottom: 8px;
+}
+/* Fim do artigo instruções */
+
+/* Artigo sobre o valor nutricional */
+.info-nutricional {
+	margin-top: -5px;
+}
+
+.info-nutricional__texto {
+	color: var(--wenge-brown);
+	margin-top: 19px;
+	line-height: 1.5;
+}
+
+ul.descricao {
+	margin-top: 12px;
+	list-style: none;
+}
+
+.nutricao-detalhes {
+	font-family: var(--font-outfit);
+	padding: 13.5px 0;
+	border-bottom: 1px solid var(--light-grey);
+}
+
+dl {display:flex}
+
+.nutricao-detalhes__titulo, 
+.nutricao-detalhes__descricao {
+	flex-basis: 50%;
+}
+
+.nutricao-detalhes__titulo {
+	color: var(--wenge-brown);
+	margin-left: 32px;
+}
+
+.nutricao-detalhes__descricao {
+	color: var(--nutmeg);
+	margin-left: -15px;
+}
+
+.nutricao-detalhes:last-child {
+	border: none;
+}
+
 /* Fim do artigo da receita */
+/* Fim do artigo sobre o valor nutricional */
+
 
 /* Rodapé final */
 .rodape-frontend-mentor { 
@@ -242,3 +242,52 @@ hr {
 	color: #751043; 
 	text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

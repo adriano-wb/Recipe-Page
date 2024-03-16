@@ -1,59 +1,56 @@
 body {
-	background: var(--eggshell);
+	background-color: var(--eggshell);
 }
 
 .container {
-	margin: 8.5vw auto;
 	border-radius: 25px;
-	width: 51vw;
+	margin: 8.5vw auto;
 	padding: 40px;
+	width: 51vw;
 }
 
 /* Cabeçalho */
-.cabecalho {
-	.cabecalho__imagem {
-		border-radius: 13px;
-	}
+.cabecalho__imagem {
+	border-radius: 13px;
 }
 /* Fim do cabeçalho */
 
 /* Artigo da receita */
 .receita {
 	padding: 29px 0;
-	
-	.receita__titulo {
-		font-size: 2.5rem;
-	}
-	
-	.receita__texto {
-		
-		margin-top: 23px;
-	}
-	
-	/* Selção do tempo de preparo */
-	.tempo-de-preparo {
-		padding: 27.5px;
-		
-		.tempo-etapas {
-			margin-top: 14px;
-		}
-	}
-	/* Fim da seção do tempo de preparo */
-	
-	/* Artigo sobre os ingredientes */
-	.ingredientes {
-		margin-top: 28px;
-	}
-	/* Fim do artigo ingredientes */
-	
-	/* Artigo intruções da receita */
-	.instrucoes {
-		margin-top: -4px;
-		
-		.instrucoes-etapas {
-			margin-top: 17.7px;
-		}
-	}
-	/* Fim do artigo instruções */
 }
+	
+.receita__titulo {
+	font-size: 2.5rem;
+}
+	
+.receita__texto {		
+	margin-top: 23px;
+}
+	
+/* Selção do tempo de preparo */
+.tempo-de-preparo {
+	padding: 27.5px;
+}
+
+.tempo-etapas {
+	margin-top: 14px;
+}
+/* Fim da seção do tempo de preparo */
+	
+/* Artigo sobre os ingredientes */
+.ingredientes {
+	margin-top: 28px;
+}
+/* Fim do artigo ingredientes */
+
+/* Artigo intruções da receita */
+.instrucoes {
+	margin-top: -4px;
+}
+	
+.instrucoes-etapas {
+	margin-top: 17.7px;
+}
+/* Fim do artigo instruções */
 /* Fim do artigo da receita */
